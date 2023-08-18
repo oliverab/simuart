@@ -61,6 +61,8 @@ void init_uart(void) {
 int main(void) {
     char last;
     init_uart();
+    printf("\n");
+    printf("XC8 compiler version %.2f\n", __XC8_VERSION / 1000.0f);
     printf("Test of output to simulator\n");
     RCSTAbits.CREN=1;
     while(1)

@@ -1,4 +1,4 @@
-wait 4 ms
+wait 20 ms
 "Microchip"
 0D 0A
 wait 1000 ms
